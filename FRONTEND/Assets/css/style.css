@@ -1,0 +1,49 @@
+
+/* #sidebar{
+    margin: 10px 30px;
+    border-radius: 5%;
+    border: 10px solid white;
+
+} */
+/* #accordionSidebar{
+    margin: 10px 30px;
+    border-radius: 5%;
+    border: 10px solid white;
+} */
+body {
+    background-image: url(/Assets/image/Rectangle_2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+  }
+#content{
+    margin: 10px 10px;
+    border-radius: 5%;
+    border: 10px solid black ;
+}
+
+#navbar{
+    margin-bottom: 100px;
+}
+.row button{
+    margin: 30px;
+    height: 188px;
+    width: 255px;
+}
+
+.main-content{
+    position:relative;
+    left: 220px;
+    max-width: 750px;
+    max-height: 600px;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: lightgray;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: gray;
+}
